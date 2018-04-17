@@ -46,16 +46,27 @@ The model with He initialization separates the blue and the red dots very well i
 <h3> Conclusion</h3>
  For the same number of iterations and same hyperparameters the comparison is:
 
-3-layer NN with zeros initialization 
+3-layer NN with zeros initialization
+
 50% 
+
 fails to break symmetry 
+<br>
+
 
 3-layer NN with large random initialization 
+
 83% 
+
 too large weights 
+<br>
+
+
 
 3-layer NN with He initialization 
+
 99% 
+
 recommended method 
 
 
