@@ -39,6 +39,9 @@ Accuracy: 0.993333333333
 On the test set:
 Accuracy: 0.96
 The model with He initialization separates the blue and the red dots very well in a small number of iterations.
+```
+
+
 
 <h3> Conclusion</h3>
  For the same number of iterations and same hyperparameters the comparison is:
