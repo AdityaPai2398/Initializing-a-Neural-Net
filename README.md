@@ -2,7 +2,13 @@
 Zero Initialization vs Random Initialization vs He Initialization
 
 The dataset visualization:
+
 ![datasetr](https://user-images.githubusercontent.com/19201530/38847064-56acdd3a-421d-11e8-84a0-72d315db3614.PNG)
+
+
+Zero Initialization:
+
+![zero](https://user-images.githubusercontent.com/19201530/38847045-349065fa-421d-11e8-8d05-90380736ee9a.PNG)
 ```html
 
 On the train set:
@@ -13,11 +19,16 @@ The performance is really bad, and the cost does not really decrease, and the al
 
 ```
 
-Zero Initialization:
-![zero](https://user-images.githubusercontent.com/19201530/38847045-349065fa-421d-11e8-8d05-90380736ee9a.PNG)
-
 Random Initialization:
+
 ![random](https://user-images.githubusercontent.com/19201530/38847046-34c79e30-421d-11e8-91d1-25b858dc16ab.PNG)
+```html
+On the train set:
+Accuracy: 0.83
+On the test set:
+Accuracy: 0.86
+This gives better results. than before. The model is no longer outputting all 0s. 
+```
 
 He initialization:
 ![he_initialisation](https://user-images.githubusercontent.com/19201530/38847047-3500bb8e-421d-11e8-8a21-f58cea89da04.PNG)
